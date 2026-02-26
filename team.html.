@@ -1,1 +1,119 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Team</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 70px;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation - uses position */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .team {
+            width: 85%;
+            margin: auto;
+        }
+
+        .member {
+            background-color: white;
+            margin: 20px 0;
+            padding: 15px;
+            overflow: auto;
+            border-radius: 8px;
+        }
+
+        /* Images - uses float */
+        .member img {
+            float: left;
+            width: 180px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        .member h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Team</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <h1>Meet Our Team</h1>
+
+    <div class="team">
+
+        <div class="member">
+            <img src="IMG_2592.jpeg" alt="Team Member 1">
+            <h3>Controller One</h3>
+            <p>
+                This controller is the main member of the team. It is used during
+                important matches and performs very well in competitive games.
+            </p>
+        </div>
+
+        <div class="member">
+            <img src="IMG_2593.jpeg" alt="Team Member 2">
+            <h3>Controller Two</h3>
+            <p>
+                This controller is focused on cooperative gameplay and is usually
+                chosen for team-based and story-driven games.
+            </p>
+        </div>
+
+        <div class="member">
+            <img src="IMG_2594.jpeg" alt="Team Member 3">
+            <h3>Controller Three</h3>
+            <p>
+                A veteran member of the team. It has been used for a long time and
+                still works reliably in many situations.
+            </p>
+        </div>
+
+        <div class="member">
+            <img src="IMG_2595.jpeg" alt="Team Member 4">
+            <h3>Controller Four</h3>
+            <p>
+                The backup controller. Always ready to be used when another controller
+                runs out of battery or stops working.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
